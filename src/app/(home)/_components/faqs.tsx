@@ -1,5 +1,6 @@
 import { GridContainer } from '@/components/grid-container'
 import { Question } from './question'
+import Image from 'next/image'
 
 const questions = [
   {
@@ -61,6 +62,32 @@ const FAQs = () => {
             />
           ))}
         </div>
+
+        <div className="text-center space-y-8 mt-16 rounded-2xl bg-brand50 p-8">
+          <Image
+            className="mx-auto"
+            src="/users.png"
+            alt="macbook"
+            width={120}
+            height={56}
+          />
+
+          <div className="">
+            <h2 className="text-4xl mt-8 mb-2 font-semibold text-gray900 -tracking-[0.78px]">
+              Still have questions?
+            </h2>
+            <p className="text-xl/6 text-gray600 max-w-3xl mx-auto">
+              Can’t find the answer you’re looking for? Please chat to our
+              friendly team.{' '}
+            </p>
+          </div>
+
+          <button className="py-3 leading-normal font-semibold text-white bg-brand600 hover:bg-brand700 transition-colors  px-5 text-lg rounded-lg ">
+            Get in touch
+          </button>
+        </div>
+
+        <hr className="border-gray200 mt-24" />
       </GridContainer>
     </section>
   )
