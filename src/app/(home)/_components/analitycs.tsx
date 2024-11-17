@@ -28,7 +28,7 @@ const analitycs = [
 ]
 const Analitycs = () => {
   return (
-    <section className="py-24">
+    <section className="pt-24">
       <GridContainer>
         <header className="text-center mb-16">
           <span className="inline-block text-brand700 text-sm/snug font-medium py-1 px-3 rounded-2xl bg-brand50">
@@ -73,6 +73,8 @@ const Analitycs = () => {
             />
           ))}
         </div>
+
+        <hr className="border-gray200  mt-24" />
       </GridContainer>
     </section>
   )
