@@ -16,6 +16,7 @@ export default {
         gray700: '#344054',
         gray900: '#101828',
         brand50: '#f9f5ff',
+        brand100: '#f4fbff',
         brand600: '#7f56d9',
         brand700: '#6941c6',
         background: 'var(--background)',
