@@ -4,6 +4,7 @@ import type { FC, ReactNode } from 'react'
 import { Header } from '@/components/header'
 
 import { Inter } from 'next/font/google'
+import { Footer } from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

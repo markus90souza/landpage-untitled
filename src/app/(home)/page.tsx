@@ -1,10 +1,10 @@
 import { Analitycs } from './_components/analitycs'
-import { Companies } from './_components/companies'
-import { FAQs } from './_components/faqs'
-import { Features } from './_components/features'
-import { Hero } from './_components/hero'
+
 import { Launch } from './_components/launch'
 import { Testemonials } from './_components/testemonials'
+
+import { Hero, Companies, Features, FAQs } from './_components'
+import { Trial } from './_components/trial'
 
 const HomePage = () => {
   return (
@@ -16,6 +16,7 @@ const HomePage = () => {
       <Analitycs />
       <FAQs />
       <Launch />
+      <Trial />
     </>
   )
 }
